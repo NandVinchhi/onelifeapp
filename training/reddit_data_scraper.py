@@ -1,6 +1,7 @@
 import praw
 import csv
 
+# reddit data scraper
 reddit = praw.Reddit(client_id='_CYcLKpr91gSGw', client_secret='2g-RHmbHyeRtj-FE_O3V8ieTEoc', user_agent='webscraper123', username='webscraper123', password='webscraper123')
 
 
