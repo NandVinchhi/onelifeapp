@@ -5,6 +5,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 import pickle 
 
+# training model
+
 data = pd.read_csv("data.csv")
 
 X = data.text 
